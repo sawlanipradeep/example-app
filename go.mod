@@ -1,4 +1,4 @@
-module github.com/sawlanipradeep/example-app/pkg/login
+module github.com/sawlanipradeep/example-app
 
 go 1.16
 
