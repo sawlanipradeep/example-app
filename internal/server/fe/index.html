@@ -1,0 +1,15 @@
+<html ng-app="todoApp">
+<head>
+  <script src="lib/angular/angular.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="TodoListController">
+  <ul>
+    <li ng-repeat="todo in todos">
+      <span>{{todo.name}}</span>
+      <p>{{todo.snippet}}</p>
+    </li>
+  </ul>
+
+</body>
+</html>
